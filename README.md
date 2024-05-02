@@ -1,4 +1,4 @@
-# 구인구직웹 프로젝트
+# 영화예매 웹 프로젝트
 
 DEVELOPMENT MOTIVATION
 ---
