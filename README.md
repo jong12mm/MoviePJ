@@ -1,4 +1,4 @@
-# 영화예매 웹 프로젝트
+# Hello Babies
 
 DEVELOPMENT MOTIVATION
 ---
