@@ -28,11 +28,11 @@ MEMBERERS
 --- 
 |NAME|DETAILS|DESCRIPTION| 
 |---|---|---|
+|Together|FrontController / Document 관리 / Dependencies  관리 |---|
 |이종일|USER - 영화 C.U.|---|
 |정대민|USER - 영화 R.D.|---|
 |강현우|유저공통 - 로그인 / 로그아웃|---|
 |이건무|MANAGER 회원가입 / 회원탈퇴|---|
-|Together|FrontController / Document 관리 / Dependencies  관리 |---|
 
 SKILLS
 ---
