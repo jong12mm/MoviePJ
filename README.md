@@ -24,7 +24,7 @@ PLANS
  
  
 
-MEMBERERS
+MEMBERS
 --- 
 |NAME|ROLE|DETAILS|DESCRIPTION| 
 |---|---|---|---|
