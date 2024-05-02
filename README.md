@@ -58,18 +58,19 @@ END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
 |---|---|---|---|---|
-|/movie/add|POST|movieId : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>time : String|---|---|
-|/movie/list|GET|---|---|---|
-|/movie/update|POST|---|---|---|
-|/movie/delete|POST|---|---|---|
+|/movie/add|POST|movidId:String,movieTitle:String,movidgenre:String,reserv:String,cgv:String,Time:String|---|---|
+|/movie/list|GET|type:String,keyword:String,pageNo:String|---|---|
+
+|/movie/update|POST|updateIdStr:String,movieTitle:String,moviegenre:String,reserv:String,cgv:String,time:String|---|---|
+|/movie/delete|POST|type:String,keyword:String,pageNo:String,deleteIdStr:String|---|---|
 |---|---|---|---|---|
-|/user/add|POST|---|---|---|
+|/user/add|POST|username:String,password:String|---|---|
 |/user/read|GET|---|---|---|
 |/user/update|POST|---|---|---|
 |/user/delete|POST|---|---|---|
 |---|---|---|---|---|
-|/login|POST|---|---|---|
-|/logout|POST|---|---|---|
+|/login|POST|username:String,password:String|---|---|
+|/logout|POST|None|---|---|
 |---|---|---|---|---|
 
 
