@@ -87,7 +87,8 @@ DEPENDENCIES LIST
 
 ERD[KoreaJobDb]
 ---
-![20240425155554](https://github.com/jungwoogyun/EM-01-PROJECTS/assets/84259104/8631169d-3c85-4be4-a097-613bf1e5b7e0)
+![image](https://github.com/jong12mm/TESTREPO/assets/155033238/e3550c15-8d8c-442e-9584-b3060dcff823)
+
 
 
 FILE TREES[JSP/SERVLET]
