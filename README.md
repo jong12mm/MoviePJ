@@ -77,11 +77,11 @@ DEPENDENCIES LIST
 |-|-|-|-|-|-|
 |BN|Commons Logging|로깅 추상화 레이어|[Commons Logging](https://commons.apache.org/proper/commons-logging/)|-|-|
 |BN|HikariCP|고성능 자바 SQL 데이터베이스 커넥션 풀|[HikariCP](https://github.com/brettwooldridge/HikariCP)|-|-|
-|BN|JSTL|JSP 태그 라이브러리|[JSTL]()|-|-|
-|BN|Logback Classic|로깅 프레임워크 (SLF4J의 구현체 중 하나)|[Logback]()|-|-|
+|BN|JSTL|JSP 태그 라이브러리|[JSTL](https://mvnrepository.com/artifact/javax.servlet/jstl)|-|-|
+|BN|Logback Classic|로깅 프레임워크 (SLF4J의 구현체 중 하나)|[Logback](https://mvnrepository.com/artifact/ch.qos.logback/logback-classic)|-|-|
 |BN|MySQL Connector/J|MySQL 데이터베이스 연결을 위한 자바 드라이버|[MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)|-|-|
 |DB|SLF4J API|간단한 로깅 파사드 for Java (로깅 API 추상화 레이어)|[SLF4J](https://www.slf4j.org/)|-|-|
-|SEC|Spring Security Crypto|스프링 시큐리티의 암호화 모듈|[Spring Security Crypto]()|-|-|
+|SEC|Spring Security Crypto|스프링 시큐리티의 암호화 모듈|[Spring Security Crypto](https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto)|-|-|
 
 
 ERD[MovieDb]
