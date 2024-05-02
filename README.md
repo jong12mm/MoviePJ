@@ -87,7 +87,8 @@ DEPENDENCIES LIST
 
 ERD[MovieDb]
 ---
-![image](https://github.com/jong12mm/TESTREPO/assets/155033238/e3550c15-8d8c-442e-9584-b3060dcff823)
+![image](https://github.com/jong12mm/TESTREPO/assets/155033238/e0f743b2-c32c-4d19-8565-a219cec8f064)
+
 
 
 
