@@ -57,19 +57,19 @@ SKILLS
 END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
-|/movie/add||POST|movidId : String, movieTitle : String, movidgenre : String, reserv : String, cgv : String, Time : String|---||---|
-|/movie/list|GET||---|---|
-|/movie/read|GET||---|---|
-|/movie/update|POST||---|---|
-|/movie/delete|POST||---|---|
+|/movie/add|POST|movidId : String, movieTitle : String, movidgenre : String, reserv : String, cgv : String, Time : String|---||---|
+|/movie/list|GET|---|---|---|
+|/movie/read|GET|---|---|---|
+|/movie/update|POST|---|---|---|
+|/movie/delete|POST|---|---|---|
 |---|---|---|---|---|
-|/user/add|POST||---|---|
-|/user/read|GET||---|---|
-|/user/update|POST||---|---|
-|/user/delete|POST||---|---|
+|/user/add|POST|---|---|---|
+|/user/read|GET|---|---|---|
+|/user/update|POST|---|---|---|
+|/user/delete|POST|---|---|---|
 |---|---|---|---|---|
-|/login|POST||---|---|
-|/logout|POST||---|---|
+|/login|POST|---|---|---|
+|/logout|POST|---|---|---|
 |---|---|---|---|---|
 
 
