@@ -10,7 +10,7 @@ DEVELOPMENT MOTIVATION
 
 HISTORY
 ---
-[TOTAL](DOCUMENT/HISTORY/TOTAL) | [이종일](http://github/jong12mm/TESTREPO/tree/이종일) | [정대민](http://github/jong12mm/TESTREPO/tree/정대민) | [강현우](http://github/jong12mm/TESTREPO/tree/강현우) | [이건무](http://github/jong12mm/TESTREPO/tree/이건무) | 
+[TOTAL](DOCUMENT/HISTORY/TOTAL) | [이종일](http://github.com/jong12mm/TESTREPO/tree/이종일) | [정대민](http://github.com/jong12mm/TESTREPO/tree/정대민) | [강현우](http://github.com/jong12mm/TESTREPO/tree/강현우) | [이건무](http://github.com/jong12mm/TESTREPO/tree/이건무) | 
 
 
 PLANS
