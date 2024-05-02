@@ -29,9 +29,9 @@ MEMBERERS
 |NAME|DETAILS|DESCRIPTION| 
 |---|---|---|
 |이종일|FrontController / Document 관리 / Dependencies  관리 |---|
-|정대민|USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
+|정대민|USER - 회원가입 / 회원탈퇴 / 영화 C.R.U.D.|---|
 |강현우|유저공통 - 로그인 / 로그아웃|---|
-|이건무|MANAGER 회원가입 회원탈퇴 영화 CRUD|---|
+|이건무|MANAGER 회원가입 / 회원탈퇴 / 영화 C.R.U.D.|---|
 
 SKILLS
 ---
