@@ -8,10 +8,9 @@ DEVELOPMENT MOTIVATION
 > > 이런 서비스는 사용자가 다양한 영화관의 상영 시간표, 좌석 상태, 가격 등을 비교하고 선택하는데 도움을 줄 것입니다.
 > > 또, 사용자들의 편의를 위해 영화 예매 과정을 간편하고 효율적으로 만들고, 다양한 옵션과 혜택을 제공하여 사용자들에게 더 나은 경험을 제공할 것입니다.<br> 
 
-
-HISTORY
+branch
 ---
-[TOTAL](DOCUMENT/HISTORY/TOTAL) | [이종일](TESTREPO/이종일) | [정대민](DOCUMENT/HISTORY/정대민) | [강현우](DOCUMENT/HISTORY/강현우) | [이건무](DOCUMENT/HISTORY/이건무) | 
+[이종일](http://github.com/jong12mm/TESTREPO/tree/이종일) | [정대민](http://github.com/jong12mm/TESTREPO/tree/정대민) | [강현우](http://github.com/jong12mm/TESTREPO/tree/강현우) | [이건무](http://github.com/jong12mm/TESTREPO/tree/이건무) | 
 
 
 PLANS
@@ -29,10 +28,10 @@ MEMBERERS
 --- 
 |NAME|ROLE|DETAILS|DESCRIPTION| 
 |---|---|---|---|
-|이종일|FN| FrontController / Docment 관리 / Dependencies  관리 |---|
-|정대민|BN| USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
-|강현우|BN| 유저공통 - 로그인 / 로그아웃|---|
-|이건무|BN| MANAGER 회원가입 회원탈퇴 영화 CRUD|---|
+|이종일|---| FrontController / Document 관리 / Dependencies  관리 |---|
+|정대민|---| USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
+|강현우|---| 유저공통 - 로그인 / 로그아웃|---|
+|이건무|---| MANAGER 회원가입 회원탈퇴 영화 CRUD|---|
 
 SKILLS
 ---
@@ -72,8 +71,6 @@ END POINT DOC
 |/login|POST|username : String<br>password : String|JSON|사용자 로그인|
 |/logout|POST|None|JSON|사용자 로그아웃|
 
-
-
 DEPENDENCIES LIST
 ---
 |CAT|NAME|DESCRIPTION|LINK|-|-|
@@ -86,9 +83,10 @@ DEPENDENCIES LIST
 |DEVOPS|-|-|-|-|-|
 
 
-ERD[KoreaJobDb]
+ERD[MovieDb]
 ---
-![20240425155554](https://github.com/jungwoogyun/EM-01-PROJECTS/assets/84259104/8631169d-3c85-4be4-a097-613bf1e5b7e0)
+![image](https://github.com/jong12mm/TESTREPO/assets/155033238/17be3f8c-f48b-41c9-b0eb-6e2c6e6a4f22)
+
 
 
 FILE TREES[JSP/SERVLET]
