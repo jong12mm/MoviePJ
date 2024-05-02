@@ -1,4 +1,4 @@
-# Hello Babies
+# 영화 통합 예매 웹 프로젝트
 
 DEVELOPMENT MOTIVATION
 ---
