@@ -26,7 +26,7 @@ PLANS
 
 MEMBERERS
 --- 
-|NAME||DETAILS|DESCRIPTION| 
+|NAME|DETAILS|DESCRIPTION| 
 |---|---|---|
 |이종일|FrontController / Document 관리 / Dependencies  관리 |---|
 |정대민|USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
