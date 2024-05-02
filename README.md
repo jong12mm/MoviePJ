@@ -58,19 +58,18 @@ END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
 |---|---|---|---|---|
-|/movie/add|POST|movieId : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>Time : String|---|---|
-|/movie/list|GET|type : String<br>keyword : String<br>pageNo : String|---|---|
-|/movie/update|POST|updateIdStr : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>time : String|---|---|
-|/movie/delete|POST|type : String<br>keyword : String<br>pageNo : String<br>deleteIdStr : String|---|---|
-|---|---|---|---|---|
-|/user/add|POST|username : String<br>password : String|---|---|
-|/user/read|GET|---|---|---|
-|/user/update|POST|---|---|---|
-|/user/delete|POST|---|---|---|
-|---|---|---|---|---|
-|/login|POST|username : String<br>password : String|---|---|
-|/logout|POST|None|---|---|
-|---|---|---|---|---|
+|/movie/add|POST|movieId : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>Time : String|JSON|새로운 영화 추가|
+|/movie/list|GET|type : String<br>keyword : String<br>pageNo : String|JSON|영화 목록 조회|
+|/movie/read|GET|---|JSON|영화 상세 정보 조회|
+|/movie/update|POST|updateIdStr : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>time : String|JSON|영화 정보 업데이트|
+|/movie/delete|POST|type : String<br>keyword : String<br>pageNo : String<br>deleteIdStr : String|JSON|영화 삭제|
+|/user/add|POST|username : String<br>password : String|JSON|새로운 사용자 추가|
+|/user/read|GET|---|JSON|사용자 상세 정보 조회|
+|/user/update|POST|---|JSON|사용자 정보 업데이트|
+|/user/delete|POST|---|JSON|사용자 삭제|
+|/login|POST|username : String<br>password : String|JSON|사용자 로그인|
+|/logout|POST|None|JSON|사용자 로그아웃|
+
 
 
 DEPENDENCIES LIST
