@@ -1,15 +1,16 @@
-23jww-7q69w-hxc8w-rbh3n
-# 안녕 내 사랑 그대여.. 이젠 내가 지켜줄게요... 못난 날 믿고.. 참고 기다려줘서.. 고마워요..
+# 영화 통합 예매 웹 프로젝트
+
 DEVELOPMENT MOTIVATION
 ---
-> 영화 예매 사이트 -
-> > -- 개발동기 적는부분<br> 
-> > -- 에 의 불편함에 의해 ~~ <br> 
- 
+> 영화 통합 예매 사이트 -
+> > -- 개발동기
+> > 영화 예매를 하려면 CGV, 롯데시네마 등 각 사이트에 들어가서 예매를 해야하는 불편함이 있는데, 이를 하나의 플랫폼에서 조회하고 예매할 수 있는 서비스를 개발하고 싶었습니다.
+> > 이런 서비스는 사용자가 다양한 영화관의 상영 시간표, 좌석 상태, 가격 등을 비교하고 선택하는데 도움을 줄 것입니다.
+> > 또, 사용자들의 편의를 위해 영화 예매 과정을 간편하고 효율적으로 만들고, 다양한 옵션과 혜택을 제공하여 사용자들에게 더 나은 경험을 제공할 것입니다.<br> 
 
-HISTORY
+branch
 ---
-[TOTAL](DOCUMENT/HISTORY/TOTAL) | [이종일](DOCUMENT/HISTORY/이종일) | [정대민](DOCUMENT/HISTORY/정대민) | [강현우](DOCUMENT/HISTORY/강현우) | [이건무](DOCUMENT/HISTORY/이건무) | 
+[이종일](http://github.com/jong12mm/TESTREPO/tree/이종일) | [정대민](http://github.com/jong12mm/TESTREPO/tree/정대민) | [강현우](http://github.com/jong12mm/TESTREPO/tree/강현우) | [이건무](http://github.com/jong12mm/TESTREPO/tree/이건무) | 
 
 
 PLANS
@@ -18,19 +19,20 @@ PLANS
  |-|-|-|-|
  |JAVA|-|-|-|
  |JSP/SERVLET|2024/04/24 ~ 2024/04/28|-|-|
- |SPRING STS3|-|-|-|
+ |SPRING STS3|2024/04/29 ~ 2024/05/03|-|-|
  |SPRING BOOT|-|-|-|
  
  
 
-MEMBERERS
+MEMBERS
 --- 
 |NAME|ROLE|DETAILS|DESCRIPTION| 
 |---|---|---|---|
-|이종일|FN| FrontController / Docment 관리 / Dependencies  관리 |---|
-|정대민|BN| USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
-|강현우|BN| 유저공통 - 로그인 / 로그아웃|---|
-|이건무|BN| MANAGER 회원가입 회원탈퇴 영화 CRUD|---|
+|Together|---| FrontController / Document 관리 / Dependencies  관리 |---|
+|이종일|---| USER - 회원가입 / 회원탈퇴 / 영화 C.U.|---|
+|정대민|---| USER - 회원가입 / 회원탈퇴 / 영화 R.D.|---|
+|강현우|---| 유저공통 - 로그인 / 로그아웃|---|
+|이건무|---| MANAGER 회원가입 회원탈퇴|---|
 
 SKILLS
 ---
@@ -58,35 +60,35 @@ END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
 |---|---|---|---|---|
-|/user/join|POST|---|---|---|
-|/user/login|GET/POST|---|---|---|
-|/user/logout|POST|---|---|---|
-|---|---|---|---|---|
-|/member/join|---|---|---|---|
-|/member/remove|---|---|---|---|
-|/member/resume/add|---|---|---|---|
-|/member/resume/list|---|---|---|---|
-|---|---|---|---|---|
-|/admin/join|---|---|---|---|
-|/admin/remove|---|---|---|---|
-|/admin/company/read|---|---|---|---|
-|---|---|---|---|---|
+|/movie/add|POST|movieId : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>Time : String|JSON|새로운 영화 추가|
+|/movie/list|GET|type : String<br>keyword : String<br>pageNo : String|JSON|영화 목록 조회|
+|/movie/read|GET|---|JSON|영화 상세 정보 조회|
+|/movie/update|POST|updateIdStr : String<br>movieTitle : String<br>moviegenre : String<br>reserv : String<br>cgv : String<br>time : String|JSON|영화 정보 업데이트|
+|/movie/delete|POST|type : String<br>keyword : String<br>pageNo : String<br>deleteIdStr : String|JSON|영화 삭제|
+|/user/add|POST|username : String<br>password : String|JSON|새로운 사용자 추가|
+|/user/read|GET|---|JSON|사용자 상세 정보 조회|
+|/user/update|POST|---|JSON|사용자 정보 업데이트|
+|/user/delete|POST|---|JSON|사용자 삭제|
+|/login|POST|username : String<br>password : String|JSON|사용자 로그인|
+|/logout|POST|None|JSON|사용자 로그아웃|
 
 DEPENDENCIES LIST
 ---
 |CAT|NAME|DESCRIPTION|LINK|-|-|
 |-|-|-|-|-|-|
-|FN|-|-|-|-|-|
-|FN|-|-|-|-|-|
-|BN|-|-|-|-|-|
-|BN|-|-|-|-|-|
-|DB|-|-|-|-|-|
-|DEVOPS|-|-|-|-|-|
+|BN|Commons Logging|로깅 추상화 레이어|[Commons Logging](https://commons.apache.org/proper/commons-logging/)|-|-|
+|BN|HikariCP|고성능 자바 SQL 데이터베이스 커넥션 풀|[HikariCP](https://github.com/brettwooldridge/HikariCP)|-|-|
+|BN|JSTL|JSP 태그 라이브러리|[JSTL](https://mvnrepository.com/artifact/javax.servlet/jstl)|-|-|
+|BN|Logback Classic|로깅 프레임워크 (SLF4J의 구현체 중 하나)|[Logback](https://mvnrepository.com/artifact/ch.qos.logback/logback-classic)|-|-|
+|BN|MySQL Connector/J|MySQL 데이터베이스 연결을 위한 자바 드라이버|[MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)|-|-|
+|DB|SLF4J API|간단한 로깅 파사드 for Java (로깅 API 추상화 레이어)|[SLF4J](https://www.slf4j.org/)|-|-|
+|SEC|Spring Security Crypto|스프링 시큐리티의 암호화 모듈|[Spring Security Crypto](https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto)|-|-|
 
 
-ERD[KoreaJobDb]
+ERD[MovieDb]
 ---
-![20240425155554](https://github.com/jungwoogyun/EM-01-PROJECTS/assets/84259104/8631169d-3c85-4be4-a097-613bf1e5b7e0)
+![image](https://github.com/jong12mm/TESTREPO/assets/155033238/17be3f8c-f48b-41c9-b0eb-6e2c6e6a4f22)
+
 
 
 FILE TREES[JSP/SERVLET]
