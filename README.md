@@ -58,7 +58,7 @@ END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
 |---|---|---|---|---|
-|/movie/add|POST|movidId:String,movieTitle:String,movidgenre:String,reserv:String,cgv:String,Time:String|---|---|
+|/movie/add|POST|movidId:String<br>movieTitle:String<br>movidgenre:String<br>reserv:String<br>cgv:String<br>Time:String|---|---|
 |/movie/list|GET|---|---|---|
 |/movie/read|GET|---|---|---|
 |/movie/update|POST|---|---|---|
