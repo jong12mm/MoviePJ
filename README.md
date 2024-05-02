@@ -26,12 +26,12 @@ PLANS
 
 MEMBERERS
 --- 
-|NAME|ROLE|DETAILS|DESCRIPTION| 
-|---|---|---|---|
-|이종일|FN| FrontController / Document 관리 / Dependencies  관리 |---|
-|정대민|BN| USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
-|강현우|BN| 유저공통 - 로그인 / 로그아웃|---|
-|이건무|BN| MANAGER 회원가입 회원탈퇴 영화 CRUD|---|
+|NAME||DETAILS|DESCRIPTION| 
+|---|---|---|
+|이종일| FrontController / Document 관리 / Dependencies  관리 |---|
+|정대민| USER - 회원가입 / 회원탈퇴 / 영화 CRUD|---|
+|강현우| 유저공통 - 로그인 / 로그아웃|---|
+|이건무| MANAGER 회원가입 회원탈퇴 영화 CRUD|---|
 
 SKILLS
 ---
