@@ -2,8 +2,7 @@
 
 DEVELOPMENT MOTIVATION
 ---
-> 영화 통합 예매 사이트 -
-> > -- 개발동기
+> 영화 통합 예매 사이트
 > > 영화 예매를 하려면 CGV, 롯데시네마 등 각 사이트에 들어가서 예매를 해야하는 불편함이 있는데, 이를 하나의 플랫폼에서 조회하고 예매할 수 있는 서비스를 개발하고 싶었습니다.
 > > 이런 서비스는 사용자가 다양한 영화관의 상영 시간표, 좌석 상태, 가격 등을 비교하고 선택하는데 도움을 줄 것입니다.
 > > 또, 사용자들의 편의를 위해 영화 예매 과정을 간편하고 효율적으로 만들고, 다양한 옵션과 혜택을 제공하여 사용자들에게 더 나은 경험을 제공할 것입니다.<br> 
@@ -29,10 +28,10 @@ MEMBERS
 |NAME|ROLE|DETAILS|DESCRIPTION| 
 |---|---|---|---|
 |Together|---| FrontController / Document 관리 / Dependencies  관리 |---|
-|이종일|---| USER - 회원가입 / 회원탈퇴 / 영화 C.U.|---|
-|정대민|---| USER - 회원가입 / 회원탈퇴 / 영화 R.D.|---|
-|강현우|---| 유저공통 - 로그인 / 로그아웃|---|
-|이건무|---| MANAGER 회원가입 회원탈퇴|---|
+|이종일|조장| USER - 회원가입 / 회원탈퇴 / 영화 C.U.|---|
+|정대민|조원| USER - 회원가입 / 회원탈퇴 / 영화 R.D.|---|
+|강현우|조원| 유저공통 - 로그인 / 로그아웃|---|
+|이건무|조원| MANAGER 회원가입 회원탈퇴|---|
 
 SKILLS
 ---
@@ -74,18 +73,22 @@ END POINT DOC
 
 DEPENDENCIES LIST
 ---
-|CAT|NAME|DESCRIPTION|LINK|-|-|
-|-|-|-|-|-|-|
-|BN|Commons Logging|로깅 추상화 레이어|[Commons Logging](https://commons.apache.org/proper/commons-logging/)|-|-|
-|BN|HikariCP|고성능 자바 SQL 데이터베이스 커넥션 풀|[HikariCP](https://github.com/brettwooldridge/HikariCP)|-|-|
-|BN|JSTL|JSP 태그 라이브러리|[JSTL](https://mvnrepository.com/artifact/javax.servlet/jstl)|-|-|
-|BN|Logback Classic|로깅 프레임워크 (SLF4J의 구현체 중 하나)|[Logback](https://mvnrepository.com/artifact/ch.qos.logback/logback-classic)|-|-|
-|BN|MySQL Connector/J|MySQL 데이터베이스 연결을 위한 자바 드라이버|[MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)|-|-|
-|DB|SLF4J API|간단한 로깅 파사드 for Java (로깅 API 추상화 레이어)|[SLF4J](https://www.slf4j.org/)|-|-|
-|SEC|Spring Security Crypto|스프링 시큐리티의 암호화 모듈|[Spring Security Crypto](https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto)|-|-|
-
+|CAT|NAME|DESCRIPTION|LINK|
+|-|-|-|-|
+|BN|Commons Logging|로깅 추상화 레이어|[Commons Logging](https://commons.apache.org/proper/commons-logging/)|
+|BN|HikariCP|고성능 자바 SQL 데이터베이스 커넥션 풀|[HikariCP](https://github.com/brettwooldridge/HikariCP)|
+|BN|JSTL|JSP 태그 라이브러리|[JSTL](https://mvnrepository.com/artifact/javax.servlet/jstl)|
+|BN|Logback Classic|로깅 프레임워크 (SLF4J의 구현체 중 하나)|[Logback](https://mvnrepository.com/artifact/ch.qos.logback/logback-classic)|
+|BN|MySQL Connector/J|MySQL 데이터베이스 연결을 위한 자바 드라이버|[MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)|
+|DB|SLF4J API|간단한 로깅 파사드 for Java (로깅 API 추상화 레이어)|[SLF4J](https://www.slf4j.org/)|
+|SEC|Spring Security Crypto|스프링 시큐리티의 암호화 모듈|[Spring Security Crypto](https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto)|
 
 ERD[MovieDb]
+---
+![image](https://github.com/jong12mm/TESTREPO/assets/155033238/12316ee5-4067-4798-b24a-7c3d0fddb801)
+
+
+MVC[MovieDb]
 ---
 ![image](https://github.com/jong12mm/TESTREPO/assets/155033238/17be3f8c-f48b-41c9-b0eb-6e2c6e6a4f22)
 
