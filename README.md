@@ -101,13 +101,13 @@ C:.
 │  정리.txt
 │
 ├─.settings
-│      .jsdtscope
-│      org.eclipse.core.resources.prefs
-│      org.eclipse.jdt.core.prefs
-│      org.eclipse.wst.common.component
-│      org.eclipse.wst.common.project.facet.core.xml
-│      org.eclipse.wst.jsdt.ui.superType.container
-│      org.eclipse.wst.jsdt.ui.superType.name
+│  .jsdtscope
+│  org.eclipse.core.resources.prefs
+│  org.eclipse.jdt.core.prefs
+│  org.eclipse.wst.common.component
+│  org.eclipse.wst.common.project.facet.core.xml
+│  org.eclipse.wst.jsdt.ui.superType.container
+│  org.eclipse.wst.jsdt.ui.superType.name
 │
 └─src
     └─main
@@ -121,12 +121,20 @@ C:.
         │              │  │  SubController.java
         │              │  │
         │              │  └─user
-        │              │      │  UserLoginController.java
-        │              │      │  UserLogoutController.java
-        │              │      │  UserAddController.java
-        │              │      │  UserReadController.java
-        │              │      │  UserUpdateController.java
-        │              │      │  UserDeleteController.java
+        │              │  │  │  UserLoginController.java
+        │              │  │  │  UserLogoutController.java
+        │              │  │  │  UserAddController.java
+        │              │  │  │  UserReadController.java
+        │              │  │  │  UserUpdateController.java
+        │              │  │  │  UserDeleteController.java
+        │              │  │
+        │              │  │
+        │              │  └─movie
+        │              │  │  │  MovieAddController.java
+        │              │  │  │  MovieDeleteController.java
+        │              │  │  │  MovieListController.java
+        │              │  │  │  MovieReadController.java
+        │              │  │  │  MovieUpdateController.java
         │              │
         │              ├─domain
         │              │  ├─common
@@ -136,35 +144,31 @@ C:.
         │              │  │  │  │  ConnectionPool_ByHikari.java
         │              │  │  │  │  ConnectionPool.java
         │              │  │  │  
-        │              │  │  │   
-        │              │  │  │    MovieDao.java
-        │              │  │  │    MovieDaoImpl.java
-        │              │  │  │    SessionDao.java
-        │              │  │  │    SessionDaoImpl.java
-        │              │  │  │    UserDao.java
-        │              │  │  │    UserDaoImpl.java
+        │              │  │  │  MovieDao.java
+        │              │  │  │  MovieDaoImpl.java
+        │              │  │  │  SessionDao.java
+        │              │  │  │  SessionDaoImpl.java
+        │              │  │  │  UserDao.java
+        │              │  │  │  UserDaoImpl.java
         │              │  │  │  
         │              │  │  │
         │              │  │  ├─dto
-        │              │  │  │      Criteria.java
-        │              │  │  │      MovieDto.java
-        │              │  │  │      PageDto.java
-        │              │  │  │      SessionDto.java
-        │              │  │  │      UserDto.java
+        │              │  │  │  Criteria.java
+        │              │  │  │  MovieDto.java
+        │              │  │  │  PageDto.java
+        │              │  │  │  SessionDto.java
+        │              │  │  │  UserDto.java
         │              │  │  │
         │              │  │  └─service
-        │              │  │          MovieService.java
-        │              │  │          MopvieServiceImpl.java
-        │              │  │          UserService.java
-        │              │  │          UserServiceImpl.java
+        │              │  │     │    MovieService.java
+        │              │  │     │    MopvieServiceImpl.java
+        │              │  │     │    UserService.java
+        │              │  │     │    UserServiceImpl.java
         │              │  │
         │              │
-        │              ├─filter
-        │              │      RememberMeFilter.java
-        │              │      UTF_8_EncodingFilter.java
-        │              │
-        │              └─type
-        │                      ROLE.java
+        │              └─filter
+        │                 │  UTF_8_EncodingFilter.java
+        │              
         │
         └─webapp
             ├─META-INF
@@ -176,33 +180,46 @@ C:.
             │      │
             │      ├─css
             │      │  │  common.css
+            │      │  │  login.css
+            │      │  │  
+            │      │  ├─movie
+            │      │  │  │  list.css
+            │      │  │  │  read.css
+            │      │  │  │  update.css
             │      │  │
-            │      │  └─member
-            │      │          add.css
-            │      │          login.css
+            │      │  └─user
+            │      │     │  add.css
+            │      │     │  myinfo.css
+            │      │     │
+            │      │     ├─admin
+            │      │     │  │  myinfo.css
+            │      │     └─member
+            │      │        │  myinfo.css
             │      │
             │      ├─js
             │      │  │  common.js
             │      │  │  index.js
-            │      │  
+            │      │  │
+            │      │  └─movie
+            │      │     │  list.js
             │      │
             │      └─jsp
-            │              footer.jsp
-            │              link.jsp
-            │              nav.jsp
-            │              topHeader.jsp
+            │         │    footer.jsp
+            │         │    link.jsp
+            │         │    nav.jsp
+            │         │    topHeader.jsp
             │
             └─WEB-INF
                 │  web.xml
                 │
                 ├─lib
-                │      commons-logging-1.3.1.jar
-                │      HikariCP-5.1.0.jar
-                │      jstl-1.2.jar
-                │      logback-classic-1.5.3.jar
-                │      mysql-connector-j-8.3.0.jar
-                │      slf4j-api-2.0.12.jar
-                │      spring-security-crypto-3.2.10.RELEASE.jar
+                │  commons-logging-1.3.1.jar
+                │  HikariCP-5.1.0.jar
+                │  jstl-1.2.jar
+                │  logback-classic-1.5.3.jar
+                │  mysql-connector-j-8.3.0.jar
+                │  slf4j-api-2.0.12.jar
+                │  spring-security-crypto-3.2.10.RELEASE.jar
                 │
                 └─view
                     │  index.jsp
@@ -211,14 +228,13 @@ C:.
                     │  template_aside.jsp
                     │
                     ├─movie
-                    │      add.jsp
-                    │      delete.jsp
-                    │      list.jsp
-                    │      update.jsp
+                    │  │  add.jsp
+                    │  │  delete.jsp
+                    │  │  list.jsp
+                    │  │  update.jsp
                     │
                     │
                     └─user
-                            join.jsp
-                            login.jsp
+                       │  add.jsp
 ```
 
