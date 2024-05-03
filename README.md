@@ -84,8 +84,12 @@ DEPENDENCIES LIST
 |DB|SLF4J API|간단한 로깅 파사드 for Java (로깅 API 추상화 레이어)|[SLF4J](https://www.slf4j.org/)|-|-|
 |SEC|Spring Security Crypto|스프링 시큐리티의 암호화 모듈|[Spring Security Crypto](https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto)|-|-|
 
-
 ERD[MovieDb]
+---
+![image](https://github.com/jong12mm/TESTREPO/assets/155033238/12316ee5-4067-4798-b24a-7c3d0fddb801)
+
+
+MVC[MovieDb]
 ---
 ![image](https://github.com/jong12mm/TESTREPO/assets/155033238/17be3f8c-f48b-41c9-b0eb-6e2c6e6a4f22)
 
