@@ -90,7 +90,8 @@ ERD[MovieDb]
 
 MVC[MovieDb]
 ---
-![image](https://github.com/jong12mm/TESTREPO/assets/155033238/17be3f8c-f48b-41c9-b0eb-6e2c6e6a4f22)
+![image](https://github.com/jong12mm/MoviePJ/assets/155033238/2c3fda5b-fd1e-47a7-b114-e2ec58a77ff6)
+
 
 
 
