@@ -29,10 +29,10 @@ MEMBERS
 |NAME|ROLE|DETAILS|DESCRIPTION| 
 |---|---|---|---|
 |Together|---| FrontController / Document 관리 / Dependencies  관리 |---|
-|이종일|---| USER - 회원가입 / 회원탈퇴 / 영화 C.U.|---|
-|정대민|---| USER - 회원가입 / 회원탈퇴 / 영화 R.D.|---|
-|강현우|---| 유저공통 - 로그인 / 로그아웃|---|
-|이건무|---| MANAGER 회원가입 회원탈퇴|---|
+|이종일|조장| USER - 회원가입 / 회원탈퇴 / 영화 C.U.|---|
+|정대민|조원| USER - 회원가입 / 회원탈퇴 / 영화 R.D.|---|
+|강현우|조원| 유저공통 - 로그인 / 로그아웃|---|
+|이건무|조원| MANAGER 회원가입 회원탈퇴|---|
 
 SKILLS
 ---
