@@ -91,7 +91,7 @@ ERD[MovieDb]
 MVC[MovieDb]
 ---
 ![image](https://github.com/jong12mm/MoviePJ/assets/155033238/2c3fda5b-fd1e-47a7-b114-e2ec58a77ff6)
-
+https://github.com/jong12mm/MoviePJ/assets/155033238/2c3fda5b-fd1e-47a7-b114-e2ec58a77ff6
 
 
 
